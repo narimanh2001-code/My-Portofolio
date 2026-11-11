@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body { 
+    font-family: arial, sans-serif;
+    background: rgb(54, 0, 40);
+    color:rgb(24, 23, 23);
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 25px;
+    background: #74304a;
+}
+nav ul {
+display: flex;
+justify-content:center;
+align-items: center;
+list-style: none;
+gap: 30px;
+margin: 0 auto;
+padding: 15px;
+}
+header {  
+    
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+header h1 {
+    font-size: 38px;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+    margin: 70px;
+}
+section {
+    background: rgb(255, 255, 255);
+    margin: 25px auto;
+    padding: 30px;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ddd; 
+    
+}
+h2 {
+    color: #26344a;
+    margin-bottom: 15px;
+}
+ul {
+    padding-left: 25px;
+}
+button {
+    background: #74304a;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    background: rgb(54, 0, 40);
+    color: white;
+}
+@media (max-width: 600px){
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header {
+        padding: 80px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section {
+        width: 92%;
+        padding: 20px;
+    }
+}
+/* Responsive Design */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header {
+    padding: 100px 20px;
+}
+
+section {
+    width: 85%;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        padding: 15px 5px;
+    }
+
+    nav ul {
+        gap: 8px;
+        padding: 5px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    header {
+        padding: 70px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section {
+        width: 92%;
+        padding: 20px;
+        margin: 15px auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}
+
+
